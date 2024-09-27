@@ -1,18 +1,22 @@
 {
   "name": "clutch",
   "version": "1.0.0",
-  "description": "bot that uses trello and slack with chatgpt",
+  "description": "Bot that uses Trello and Slack with ChatGPT",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "overrides": {
-  "tough-cookie": "^4.1.3"
+    "tough-cookie": "^4.1.3"
   },
   "author": "Logan Dutton-Anderson",
   "license": "MIT",
   "dependencies": {
     "@slack/bolt": "^3.21.1",
-    "axios": "^1.7.7"
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "firebase": "^10.13.1",
+    "moment-timezone": "^0.5.45",
+    "ngrok": "^5.0.0-beta.2"
   }
 }
